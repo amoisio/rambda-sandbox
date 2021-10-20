@@ -7,7 +7,7 @@
         {
             "type": "pwa-node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch TS",
             "skipFiles": [
                 "<node_internals>/**"
             ],
@@ -15,6 +15,15 @@
             "outFiles": [
                 "${workspaceFolder}/dist/*.js"
             ]
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch JS",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}.js"
         }
     ]
 }

@@ -13,7 +13,7 @@ export const data: IBook[] = [
         year: 2017
     }, {
         title: 'Welcome the team',
-        year: 2018
+        year: 2019
     }, {
         title: 'Write module A',
         year: 2019
@@ -22,9 +22,9 @@ export const data: IBook[] = [
         year: 2020
     }, {
         title: 'Write module C',
-        year: 2021
+        year: 2020
     }, {
         title: 'Finish algebraic types',
-        year: 2022
+        year: 2020
     }
 ];
